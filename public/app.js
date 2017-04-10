@@ -6,13 +6,13 @@ var createCatUL = function(){
 
 var createCatName = function(name){
   var catName = document.createElement('li')
-  catName.innerText = name
+  catName.innerText = "Name: " + name
   return catName
 }
 
 var createCatFood = function(food){
   var catFood = document.createElement('li')
-  catFood.innerText = food
+  catFood.innerText = "Favourite food: " + food
   return catFood
 }
 
@@ -44,7 +44,8 @@ var createCat = function(name,food,img){
 }
 
 var app = function(){
-  createCat('Shere Khan', 'Human',"tiger.jpg")
+  createCat('Shere Khan', 'Human',"https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Tigress_at_Jim_Corbett_National_Park.jpg/1200px-Tigress_at_Jim_Corbett_National_Park.jpg")
+  createCat('Selina','Bats',"https://s-media-cache-ak0.pinimg.com/736x/25/0e/b6/250eb6349d66c11aa185b4a97ec6b628.jpg")
 }
 
 window.onload = app;

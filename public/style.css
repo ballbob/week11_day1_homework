@@ -6,3 +6,9 @@
 .red-quote{
   color: red;
 }
+
+.cat {
+  font-size: 12;
+  position: center;
+  font-color: green;
+}
